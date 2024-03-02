@@ -1,6 +1,25 @@
 {
-    "name" : "SimpleSemVer",
-    "version" : "1.0.0",
-    "keywords" : ["version", "versioning", "semantic"],
-    "description" : "A simple Arduino library for maintaining and comparing semantic version numbers."
-  }
+  "name": "SimpleSemVer",
+  "version": "1.0.0",
+  "keywords": [
+    "version",
+    "versioning",
+    "semantic"
+  ],
+  "description": "A simple Arduino library for maintaining and comparing semantic version numbers.",
+  "authors": [
+    {
+      "name": "Boris Jaeger",
+      "email": "sivar2311@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sivar2311/SimpleSemVer"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": "*"
+}
