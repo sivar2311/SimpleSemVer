@@ -7,7 +7,5 @@
     "repository" : {
       "type" : "git",
       "url" : "https://github.com/sivar2311/SimpleSemVer"
-    },
-    "frameworks" : ["arduino"],
-    "platforms" : "*"
+    }
   }
