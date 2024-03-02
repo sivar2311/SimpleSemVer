@@ -114,4 +114,4 @@ long Version::toInt() const {
     return (_major * 1000000) + (_minor * 1000) + _patch;
 }
 
-Version Version::version() { return Version("0.0.1-rc1"); }
+Version Version::version() { return Version("1.0.0"); }
