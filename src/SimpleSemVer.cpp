@@ -11,7 +11,7 @@ Version::Version(uint8_t major, uint8_t minor, uint8_t patch, const char* extens
     : _major(major)
     , _minor(minor)
     , _patch(patch)
-    , _extension(_extension) {
+    , _extension(extension) {
 }
 
 Version::Version(const char* other) {
@@ -28,7 +28,7 @@ String Version::toString() const {
 
     bool hasExtension = _extension.length() > 0;
 
-    if (hasExtension) result += _extension;
+    if (hasExtension) result += "-"+_extension;
 
     return result;
 }
